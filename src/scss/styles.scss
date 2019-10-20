@@ -13,3 +13,53 @@ h2
 h1{
     @extend h2;
 }
+ul
+{
+    list-style: none;
+}
+
+button
+{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+select
+{
+    background-color: DodgerBlue;
+    padding: 3px 3px;  
+    border-color: #fff transparent  transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.navigation 
+{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+li
+{
+    height: auto;
+    width: 350px;
+    background-color: red;
+    color:black;
+    overflow: auto;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+li:nth-child(even) {
+    background:yellow;  
+  }
+
